@@ -1,0 +1,46 @@
+Unfortunately, the provided sources do not contain information on calculating the square of a planet. However, based on the contexts provided, I can provide you with examples of how to calculate the square of a number in different programming languages.
+
+1. **C Program to Calculate Square of a Number** [source](https://www.tutorialgateway.org/c-program-to-calculate-square-of-a-number/):
+```c
+#include<stdio.h>
+int main() {
+    int number, Square;
+    printf(" \n Please Enter any Number: ");
+    scanf("%d", &number);
+    Square = Calculate_Square(number);
+    printf("Square of %d = %d", number, Square);
+    return 0;
+}
+int Calculate_Square(int Number) {
+    return Number * Number;
+}
+```
+2. **Python Program to Calculate Square of a Given Number** [source](https://www.geeksforgeeks.org/python-profram-to-calculate-square-of-a-given-number/):
+```python
+def square(num):
+    return num * num
+
+num = int(input("Enter a number: "))
+result = square(num)
+print(f"The square of {num} is {result}")
+```
+3. **C Program: Find the square of any number** [source](https://www.w3resource.com/c-programming-exercises/function/c-function-exercise-2.php):
+```c
+#include <stdio.h>
+double square(double num);
+int main()
+{
+    double num, result;
+    printf("Enter a number: ");
+    scanf("%lf", &num);
+    result = square(num);
+    printf("Square of %.2lf = %.2lf", num, result);
+    return 0;
+}
+double square(double Number)
+{
+    return Number * Number;
+}
+```
+
+These code examples demonstrate how to calculate the square of a number in C, Python, and C++, respectively. However, if you need assistance in calculating the square of a planet's position, you may need to provide more specific information or consult additional resources.
